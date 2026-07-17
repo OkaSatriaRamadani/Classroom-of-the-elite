@@ -1,0 +1,220 @@
+*,
+html{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    margin:0;
+    overflow-x:hdden;
+    font-family: Arial,sans-serif;
+    color:white;
+    background-image: url(hq720.jpg);
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+}
+
+.container-nav{
+    background-image:linear-gradient(to right,rgba(0,0,0,0.9), rgba(0,0,0,0.7), rgba(0,0,0,0.9)),url("images/background.jpg");
+    height:5vh;
+}
+
+.container-h2{
+    color:white;
+}
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 50px;
+    background-image:rgba(0,0,0,0.5);
+}
+
+nav h2{
+    color:#ff4d4d;
+}
+
+nav ul{
+    display:flex;
+    list-style:none;
+}
+
+nav ul li{
+    margin-left:30px;
+}
+
+nav ul li a{
+    color:white;
+    text-decoration:none;
+}
+
+.hero{
+    height:95vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    padding-left:80px;
+    background:rgba(0,0,0,0,.4);
+    background-image:linear-gradient(to right,rgba(0,0,0,0.8), rgba(0,0,0,0.3), rgba(0,0,0,0.1)),url("images/background.jpg");
+}
+
+.h1-section{
+    font-size: 80%;
+}
+
+.garis{
+    width:100px;
+    height:2px;
+    background:#ff3d5f;
+    margin-top:15px;
+    margin-bottom:25;
+}
+
+.container-O{
+    color:#ff3d5f;
+}
+
+.container-elite{
+    color:#ff3d5f;
+}
+
+.hero h1{
+    font-size:40px;
+}
+
+.hero h2{
+    color:#ffffff;
+}
+
+.hero-text{
+    color:#ff4d4d
+}
+
+.hero p{
+    margin-top:10px;
+    font-size:15px;
+    transform:translateY(-5px);
+}
+
+.container-home{
+    color:#ff3d5f;
+}
+
+.btn-container{
+    display:flex;
+    gap:20px;
+    margin-top:25px;
+    transform:translateY(-15px);
+}
+.btn{
+    padding:12px 25px;
+    border-radius:8px;
+    font-weight:600;
+    text-decoration:none;
+    display:inline-flex;
+    align-items:center;
+    gap:8px;
+    transition:0,3;
+}
+
+.explore{
+    background:#ff3d5f;
+    color:#fff;
+    border:none;
+}
+
+.trailer{
+    background:transparent;
+    color:#fff;
+    border:2px solid #ffffff;
+}
+
+.trailer i{
+    font-size:18px;
+}
+
+.btn:hover{
+    opacity:0.85;
+    transform:translateY(-2px);
+}
+
+.about-info{
+    display:flex;
+    align-items:center;
+    gap:30px;
+}
+
+.images-1{
+    border-radius:10px;
+    width:350px;
+    margin-top:-20px;
+}
+    
+.high-chool{
+    color:#ff3d5f;
+}
+
+.genre{
+    color:#ff3d5f;
+}
+
+.season{
+    color:#ff3d5f;
+}
+
+.rating{
+    color:#ff3d5f;
+}
+
+.images{
+    height:50vh;
+    margin-left:-100px;
+    margin-bottom:-50px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    padding-left:80px;
+    background:rgba(0,0,0,0,.4);
+    background-image:linear-gradient(to right,rgba(0,0,0,0.8), rgba(0,0,0,0.6), rgba(0,0,0,0.7));
+}
+
+.text-1{
+    width:420px;
+}
+
+.read-1{
+    background:transparent;
+    color:bisque;
+    border:1px solid #ffffff;
+    padding:10px 25px;
+    border-radius:8px;
+    font-weight:600;
+    text-decoration:none;
+    display:inline-block;
+    align-items:center;
+    gap:8px;
+    transition:0,3;
+    font-size:15px;
+}
+
+.about-anime{
+    color:#ff4d4d;
+}
+
+.classroom{
+    color:white;
+    font-size:150%;
+}
+
+.text-long{
+    color:white;
+}
+
+.fa-solid{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
